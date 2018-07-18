@@ -1,113 +1,123 @@
-﻿<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>最浪漫的事</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>爱心攻略</title>
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+  <link rel="shortcut icon" href="img/favicon.ico">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
 
-<style type="text/css">
-@font-face {
-	font-family: digit;
-	src: url('digital-7_mono.ttf') format("truetype");
-}
-.space{
-font-size:24px}
-</style>
-
-<link href="css/default.css" type="text/css" rel="stylesheet">
-<script type="text/javascript" src="js/jquery.js"></script>
-<script type="text/javascript" src="js/garden.js"></script>
-<script type="text/javascript" src="js/functions.js"></script>
+  <link rel="stylesheet" href="css/light7.css">
+  <link rel="stylesheet" href="css/light7-swiper.css">
+  <link rel="stylesheet" href="css/light7-swipeout.css">
+  <link rel="stylesheet" href="css/my.css">
 
 </head>
+<body class="theme-pink">
+  <!-- 你的html代码 -->
+  <!------------------------------------------------------------------------------ -->
+  <!-- page 容器 -->
+  <div class="page"  style="background: url(img/beijing3.jpg);">
+    <!-- 标题栏 -->
+    <header class="bar bar-nav">
+      <a class="icon icon-left pull-left external" href="denglu.html">切换</a>
+      <h1 class="title title_font">带着二蓉去旅行</h1>
+    </header>
 
-<body>
+    <!-- 工具栏 -->
+    <nav class="bar bar-tab">
+      <a class="tab-item active" href="#">
+        <span class="icon icon-home"></span>
+        <span class="tab-label">攻略</span>
+      </a>
+      <a class="tab-item external" href="photo.html">
+        <span class="icon icon-star"></span>
+        <span class="tab-label">美图</span>
+      </a>
+      <a class="tab-item external" href="feedback.html">
+        <span class="icon icon-compose"></span>
+        <span class="tab-label">那个迪士尼</span>
+      </a>
+    </nav>
 
-<div id="mainDiv">
-	<div id="content">
-		<div id="code">
-			<span class="comments">/**</span><br />
-			<span class="space"/><span class="comments">*2018—07-16,</span><br />
-			<span class="space"/><span class="comments">*2018—07-16.</span><br />
-			<span class="space"/><span class="comments">*/</span><br />
-			Boy name = <span class="keyword">Mr</span> Yan<br />
-			Girl name = <span class="keyword">Mrs</span> Liu<br />
-			<span class="comments">//Hasn't fall in love river. </span><br />
-			The boy loves the girl;<br />
-			<span class="comments">// They love each other.</span><br />
-			The girl loves studying;<br />
-			<span class="comments">// AS time goes on.</span><br />
-			The boy can not be separated the girl;<br />
-			<span class="comments">// At the same time.</span><br />
-			The girl can not be separated the boy;<br />
-			<span class="comments">// Both they are shy.</span><br />
-			<span class="keyword">The boy</span> very <span class="keyword">happy</span>;<br />
-			<span class="keyword">The girl</span> is also very <span class="keyword">happy</span>;<br />
-			<span class="placeholder"/><span class="comments">// Whether it is right now</span><br />
-			<span class="placeholder"/><span class="comments">// Still in the distant future.</span><br />
-			<span class="placeholder"/>The boy has but one dream;<br />
-			<span class="comments">// The boy wants the girl could well have been happy.</span><br />
-			<br>
-			<br>
-			I want to say:<br />
-			Baby, I love you forever;<br />
-		</div>
-		<div id="loveHeart">
-			<canvas id="garden"></canvas>
-			<div id="words">
-				<div id="messages">
-					亲爱的，这是我们相识、相知的时间。
-					<div id="elapseClock"></div>
-				</div>
-				<div id="loveu">
-					.................<br/>
-					<div class="signature">- 二蓉</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
+    <!-- 这里是页面内容区 -->
+    <div class="content">
+      <div class="content-block-title">景点篇</div>
+      <div class="card demo-card-header-pic">
+        <div valign="bottom" class="card-header color-white no-border no-padding">
+          <img class='card-cover' src="img/jingdian/jingdian1.jpg" alt="" style="width: 110px;height: 110px;">
+          <img class='card-cover' src="img/jingdian/jingdian2.jpg" alt="" style="width: 110px;height: 110px;">
+          <img class='card-cover' src="img/jingdian/jingdian3.jpg" alt="" style="width: 110px;height: 110px;">
+        </div>
+        <div valign="bottom" class="card-header color-white no-border no-padding" style="margin-top: 5px;">
+          <img class='card-cover' src="img/jingdian/jingdian5.jpg" alt="" style="width: 110px;height: 110px;">
+          <img class='card-cover' src="img/jingdian/jingdian4.jpg" alt="" style="width: 110px;height: 110px;">
+          <img class='card-cover' src="img/jingdian/jingdian6.jpg" alt="" style="width: 110px;height: 110px;">
+        </div>
+        <div valign="bottom" class="card-header color-white no-border no-padding" style="margin-top: 5px;">
+          <img class='card-cover' src="img/jingdian/jingdian7.jpg" alt="" style="width: 110px;height: 110px;">
+          <img class='card-cover' src="img/jingdian/jingdian8.jpg" alt="" style="width: 110px;height: 110px;">
+          <img class='card-cover' src="img/jingdian/jingdian9.jpg" alt="" style="width: 110px;height: 110px;">
+        </div>
+        <div class="card-content">
+          <div class="card-content-inner">
+            <p class="color-gray">发表于 2018/07/04</p>
+            <p>上海是多元的，老城厢里原汁原味的老弄堂；外滩沿岸百年历史的…………</p>
+          </div>
+        </div>
+        <div class="card-footer">
+          <a href="jingdian.html" class="link external">查看更多</a>
+        </div>
+      </div>
+      <div class="content-block-title">饮食篇</div>
+      <div class="card demo-card-header-pic">
+        <div valign="bottom" class="card-header color-white no-border no-padding">
+          <img class='card-cover' src="img/meishi/meishi20.jpg" alt="" style="width: 110px;height: 110px;">
+          <img class='card-cover' src="img/meishi/meishi4.jpg" alt="" style="width: 110px;height: 110px;">
+          <img class='card-cover' src="img/meishi/meishi19.jpg" alt="" style="width: 110px;height: 110px;">
+        </div>
+        <div class="card-content">
+          <div class="card-content-inner">
+            <p class="color-gray">发表于 2018/07/03</p>
+            <p>上海是个海纳百川的大都市，融汇了来自世界各地的美食，不仅有…………</p>
+          </div>
+        </div>
+        <div class="card-footer">
+          <a href="yinshi.html" class="link external">查看更多</a>
+        </div>
+      </div>
+      <div class="content-block-title">住宿篇</div>
+      <div class="card demo-card-header-pic">
+        <div valign="bottom" class="card-header color-white no-border no-padding">
+          <img class='card-cover' src="img/zhusu/xiao1.jpg" alt="" style="width: 110px;height: 110px;">
+          <img class='card-cover' src="img/zhusu/xiao2.jpg" alt="" style="width: 110px;height: 110px;">
+          <img class='card-cover' src="img/zhusu/xiao3.jpg" alt="" style="width: 110px;height: 110px;">
+        </div>
+        <div class="card-content">
+          <div class="card-content-inner">
+            <p class="color-gray">发表于 2018/07/02</p>
+            <p>选择住宿首先考虑的就是干净整洁。其次一定要选择地段好或者交通方便的。想要在…………</p>
+          </div>
+        </div>
+        <div class="card-footer">
+          <a href="zhusu.html" class="link external">查看更多</a>
+        </div>
+      </div>
+    </div>
+  </div>
 
-<script type="text/javascript">
+  <!-- popup, panel 等放在这里 -->
+  
+    <!------------------------------------------------------------------------------ -->
 
-var offsetX = $("#loveHeart").width() / 2;
-var offsetY = $("#loveHeart").height() / 2 - 55;
-var together = new Date();
-together.setFullYear(2017,03,23);
-together.setHours(12);
-together.setMinutes(5);
-together.setSeconds(4);
-together.setMilliseconds(0);
-
-if (!document.createElement('canvas').getContext) {
-	var msg = document.createElement("div");
-	msg.id = "errorMsg";
-	msg.innerHTML = "Your browser doesn't support HTML5!<br/>Recommend use Chrome 14+/IE 9+/Firefox 7+/Safari 4+"; 
-	document.body.appendChild(msg);
-	$("#code").css("display", "none")
-	
-	$("#copyright").css("position", "absolute");
-	$("#copyright").css("bottom", "10px");
-	document.execCommand("stop");
-} else {
-	setTimeout(function () {
-		startHeartAnimation();
-	}, 500);
-
-	timeElapse(together);
-	setInterval(function () {
-		timeElapse(together);
-	}, 500);
-
-	adjustCodePosition();
-	$("#code").typewriter();
-}
-</script>
-
-<script type="text/javascript">
-			[].forEach.call(document.querySelector('*'),function(a){
-				a.style.outline= '1px solid #'+(~~(Math.random()*(1<<24))).toString(16)
-			})
-		</script>
-
-</body>
-</html>
+    <script type='text/javascript' src="js/jquery.js" charset='utf-8'></script>
+    <script type='text/javascript' src='js/light7.js' charset='utf-8'></script>
+    <script type='text/javascript' src='js/light7-swiper.js' charset='utf-8'></script>
+    <script type='text/javascript' src='js/light7-city-picker.js' charset='utf-8'></script>
+    <script type='text/javascript' src='js/light7-swipeout.js' charset='utf-8'></script>
+    <script type='text/javascript' src='js/my.js' charset='utf-8'></script>
+    <!--<script src="/your-js-file.js"></script>-->
+  </body>
+  </html>
